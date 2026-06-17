@@ -35,7 +35,7 @@ func main() {
 		fmt.Println("*Go CLI Calculator*")
 		fmt.Println("By Joaquim Prieto 2026")
 
-		fmt.Println("Type: value1 value2 operator ->")
+		fmt.Println("Type: value1 value2 operator (or close to end) ->")
 		if !scanner.Scan() {
 			if err := scanner.Err(); err != nil {
 				fmt.Fprintf(os.Stderr, "Error reading input: %v\n", err)
