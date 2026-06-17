@@ -1,0 +1,22 @@
+# Compiled binaries
+/calculator
+*.exe
+*.out
+
+# Test & coverage artifacts
+*.test
+coverage.out
+coverage.html
+
+# Dependency directory (when using `go mod vendor`)
+/vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Editor / OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
